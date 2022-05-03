@@ -21,10 +21,8 @@ function solution(str, ending){
     if (str[j]!=ending[k]){
       console.log(`Mismatch: ${str[j]} & ${ending[k]}`)
       return false;
-      break;
     } else {
       console.log(`Match: ${str[j]} & ${ending[k]}`)
-      continue;
     }
 
   }
